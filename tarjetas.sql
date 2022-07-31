@@ -1,4 +1,4 @@
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (1,465163984013256000000,"787","04/06/2022","16/01/2028","DEBITO",3,416),
   (2,946799342118403600000,"879","26/01/2022","25/09/2027","DEBITO",1,496),
@@ -10,7 +10,7 @@ VALUES
   (8,683215327542794800000,"642","19/12/2021","06/10/2027","DEBITO",2,374),
   (9,737894609463453700000,"239","31/01/2022","14/10/2027","CREDITO",2,151),
   (10,106750285091589780000,"886","09/10/2021","10/10/2027","DEBITO",2,368);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (11,988700306730408700000,"931","10/05/2022","28/02/2028","CREDITO",2,404),
   (12,503495941737025800000,"524","16/06/2022","22/02/2028","DEBITO",2,354),
@@ -22,7 +22,7 @@ VALUES
   (18,653191216617137800000,"301","06/04/2022","07/04/2028","DEBITO",3,379),
   (19,346216643094437800000,"259","29/03/2022","20/10/2027","DEBITO",2,269),
   (20,987238243096362200000,"180","29/01/2022","27/03/2028","DEBITO",3,13);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (21,706118234607697700000,"828","12/11/2021","05/08/2027","CREDITO",2,434),
   (22,275575547729855800000,"240","11/12/2021","22/08/2027","CREDITO",3,208),
@@ -34,7 +34,7 @@ VALUES
   (28,120164984363908800000,"680","19/06/2022","02/08/2027","CREDITO",2,86),
   (29,175752518593586330000,"973","25/11/2021","16/01/2028","CREDITO",1,318),
   (30,649422300025112800000,"633","10/05/2022","30/01/2028","DEBITO",3,316);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (31,858384249712430800000,"215","03/12/2021","23/08/2027","DEBITO",2,49),
   (32,144529448792421370000,"566","26/02/2022","23/03/2028","DEBITO",3,154),
@@ -46,7 +46,7 @@ VALUES
   (38,593650001660403400000,"318","17/12/2021","12/01/2028","CREDITO",2,453),
   (39,179343661143122440000,"830","11/08/2021","11/06/2028","CREDITO",2,487),
   (40,492732052916701950000,"883","09/11/2021","11/10/2027","CREDITO",1,253);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (41,848662515508070800000,"656","18/04/2022","21/09/2027","CREDITO",2,355),
   (42,721675581263406600000,"462","27/08/2021","27/06/2028","CREDITO",2,437),
@@ -58,7 +58,7 @@ VALUES
   (48,644595862402672900000,"402","15/04/2022","06/10/2027","DEBITO",3,466),
   (49,838891612144319600000,"755","25/08/2021","08/02/2028","CREDITO",2,308),
   (50,981532479615089400000,"239","27/10/2021","28/06/2028","CREDITO",3,450);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (51,151892590981465570000,"235","21/08/2021","13/08/2027","CREDITO",2,342),
   (52,828840278155427800000,"845","24/05/2022","15/04/2028","CREDITO",2,343),
@@ -70,7 +70,7 @@ VALUES
   (58,272333108571422950000,"593","08/01/2022","08/12/2027","DEBITO",2,192),
   (59,873980706117186200000,"204","05/10/2021","21/07/2028","CREDITO",2,262),
   (60,790181950903860300000,"774","13/07/2022","26/11/2027","CREDITO",2,345);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (61,850101229654219800000,"133","06/09/2021","29/10/2027","CREDITO",2,75),
   (62,564177194474365800000,"604","14/04/2022","02/09/2027","CREDITO",1,101),
@@ -82,7 +82,7 @@ VALUES
   (68,632199947445812900000,"322","24/06/2022","29/02/2028","DEBITO",1,410),
   (69,941866449477485100000,"942","14/12/2021","21/06/2028","DEBITO",2,408),
   (70,331864219212578500000,"849","02/11/2021","31/10/2027","CREDITO",2,428);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (71,137922738148316510000,"714","09/10/2021","14/09/2027","CREDITO",2,20),
   (72,462237474027793200000,"428","19/05/2022","03/09/2027","CREDITO",2,98),
@@ -94,7 +94,7 @@ VALUES
   (78,193458251117866060000,"756","24/09/2021","20/02/2028","DEBITO",1,34),
   (79,191006925283931750000,"869","14/03/2022","10/10/2027","CREDITO",2,82),
   (80,606959689245276500000,"275","25/01/2022","24/06/2028","CREDITO",2,148);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (81,950721836160141500000,"592","31/03/2022","27/02/2028","CREDITO",1,398),
   (82,704195305474601000000,"484","01/03/2022","25/01/2028","DEBITO",3,142),
@@ -106,7 +106,7 @@ VALUES
   (88,527616134765744400000,"529","15/05/2022","25/09/2027","DEBITO",3,385),
   (89,468707109677771650000,"244","23/04/2022","27/01/2028","CREDITO",3,451),
   (90,352907576774570300000,"758","09/03/2022","16/07/2028","CREDITO",1,169);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (91,876496788031777700000,"547","16/07/2022","26/10/2027","CREDITO",2,138),
   (92,157662553149715480000,"826","19/07/2022","13/04/2028","CREDITO",3,359),
@@ -118,7 +118,7 @@ VALUES
   (98,757313918109832000000,"261","12/10/2021","25/01/2028","CREDITO",2,25),
   (99,825059940407931200000,"166","25/05/2022","26/01/2028","CREDITO",2,59),
   (100,218884363971384700000,"200","20/02/2022","27/02/2028","CREDITO",2,477);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (101,399959285964413000000,"183","31/10/2021","11/05/2028","CREDITO",3,231),
   (102,390440210346407100000,"961","04/08/2021","13/08/2027","DEBITO",2,172),
@@ -130,7 +130,7 @@ VALUES
   (108,455837693760399150000,"327","13/07/2022","19/06/2028","CREDITO",2,360),
   (109,365618134469425300000,"518","11/11/2021","17/10/2027","CREDITO",2,178),
   (110,620856373486477900000,"975","29/05/2022","06/06/2028","DEBITO",2,442);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (111,333785829946425600000,"996","31/05/2022","05/08/2027","CREDITO",3,187),
   (112,236525780243078840000,"573","09/03/2022","21/04/2028","CREDITO",2,51),
@@ -142,7 +142,7 @@ VALUES
   (118,853208774792737300000,"354","05/05/2022","24/09/2027","CREDITO",3,32),
   (119,416121363166920000000,"153","07/05/2022","24/09/2027","DEBITO",2,235),
   (120,513771587692647200000,"500","01/08/2021","31/05/2028","CREDITO",2,281);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (121,831171361734479800000,"618","05/09/2021","12/09/2027","DEBITO",3,13),
   (122,463991181797845430000,"712","14/01/2022","06/06/2028","DEBITO",2,47),
@@ -154,7 +154,7 @@ VALUES
   (128,642415630153874700000,"812","05/04/2022","09/12/2027","DEBITO",3,334),
   (129,862270801954507700000,"374","03/11/2021","08/01/2028","DEBITO",1,153),
   (130,334196875686902240000,"353","05/10/2021","24/05/2028","CREDITO",3,234);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (131,581637422034190000000,"501","28/02/2022","30/11/2027","DEBITO",1,100),
   (132,466456517771484700000,"673","02/11/2021","28/08/2027","DEBITO",3,422),
@@ -166,7 +166,7 @@ VALUES
   (138,773748244069470800000,"650","12/08/2021","25/12/2027","DEBITO",2,273),
   (139,193834184948071070000,"830","08/08/2021","15/10/2027","CREDITO",2,337),
   (140,130892740238844360000,"729","07/09/2021","02/01/2028","DEBITO",2,428);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (141,138767522194280990000,"910","29/12/2021","14/06/2028","DEBITO",1,404),
   (142,931817287297955100000,"451","11/10/2021","17/02/2028","CREDITO",2,251),
@@ -178,7 +178,7 @@ VALUES
   (148,158278154388178930000,"733","19/08/2021","19/07/2028","CREDITO",1,369),
   (149,221498334917882800000,"905","13/02/2022","02/02/2028","CREDITO",2,38),
   (150,777441512894234100000,"236","14/08/2021","25/10/2027","DEBITO",2,92);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (151,381058708450334150000,"221","20/06/2022","22/05/2028","DEBITO",2,482),
   (152,724057651484351900000,"873","17/10/2021","17/10/2027","DEBITO",1,460),
@@ -190,7 +190,7 @@ VALUES
   (158,662386593668656300000,"196","19/08/2021","04/02/2028","CREDITO",1,138),
   (159,198324998136166580000,"678","26/04/2022","20/08/2027","CREDITO",1,54),
   (160,223282063771076920000,"956","21/04/2022","13/10/2027","DEBITO",2,198);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (161,593775330421212400000,"420","26/09/2021","09/12/2027","DEBITO",2,341),
   (162,911428759766866000000,"324","21/06/2022","22/01/2028","CREDITO",2,468),
@@ -202,7 +202,7 @@ VALUES
   (168,170063946016071250000,"947","29/12/2021","09/02/2028","DEBITO",3,233),
   (169,160781175271967650000,"582","17/09/2021","16/01/2028","CREDITO",2,434),
   (170,712236820328281900000,"767","09/11/2021","27/07/2028","CREDITO",3,4);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (171,385961421309042950000,"655","30/10/2021","05/07/2028","DEBITO",2,130),
   (172,891129842344350300000,"319","22/06/2022","28/05/2028","DEBITO",3,43),
@@ -214,7 +214,7 @@ VALUES
   (178,356717403598677200000,"201","12/09/2021","30/12/2027","DEBITO",1,193),
   (179,603333034406912600000,"730","13/09/2021","16/05/2028","CREDITO",1,278),
   (180,405860757468072050000,"529","01/08/2021","19/04/2028","CREDITO",3,230);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (181,132409099199292670000,"288","24/10/2021","28/08/2027","CREDITO",2,231),
   (182,394253199684999200000,"178","27/10/2021","13/09/2027","DEBITO",2,318),
@@ -226,7 +226,7 @@ VALUES
   (188,543090956758810900000,"731","09/07/2022","12/09/2027","CREDITO",3,52),
   (189,182203137193958770000,"935","17/01/2022","20/12/2027","CREDITO",2,458),
   (190,705113530889150700000,"487","10/03/2022","23/06/2028","CREDITO",2,435);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (191,139590019170778940000,"999","27/07/2022","28/07/2027","DEBITO",2,444),
   (192,670349835881627300000,"329","05/05/2022","01/01/2028","DEBITO",3,150),
@@ -238,7 +238,7 @@ VALUES
   (198,484078177248464300000,"598","23/08/2021","19/12/2027","CREDITO",1,268),
   (199,466615360461401600000,"445","08/12/2021","30/03/2028","DEBITO",2,216),
   (200,583260405765427760000,"855","07/04/2022","04/08/2027","DEBITO",2,448);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (201,711912812683442500000,"575","05/09/2021","16/02/2028","CREDITO",1,103),
   (202,555511264589585400000,"642","26/11/2021","21/10/2027","DEBITO",2,322),
@@ -250,7 +250,7 @@ VALUES
   (208,726368608280116100000,"198","11/07/2022","14/03/2028","DEBITO",2,480),
   (209,193170312769994160000,"852","16/06/2022","12/10/2027","CREDITO",1,333),
   (210,359238395842450700000,"924","10/01/2022","17/08/2027","DEBITO",1,14);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (211,247342344161961970000,"883","28/11/2021","24/05/2028","CREDITO",2,166),
   (212,776286045826154100000,"628","01/08/2021","16/07/2028","CREDITO",3,485),
@@ -262,7 +262,7 @@ VALUES
   (218,431095773009885500000,"595","02/02/2022","24/03/2028","DEBITO",2,445),
   (219,802151848551714900000,"992","03/06/2022","03/09/2027","DEBITO",3,243),
   (220,915198682626900600000,"543","10/11/2021","21/06/2028","DEBITO",1,381);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (221,905236698226760400000,"889","16/02/2022","06/03/2028","CREDITO",1,464),
   (222,640902566427429400000,"235","23/11/2021","06/09/2027","DEBITO",2,226),
@@ -274,7 +274,7 @@ VALUES
   (228,704601841334647500000,"842","05/03/2022","23/11/2027","DEBITO",2,304),
   (229,340374997388846700000,"388","27/09/2021","18/10/2027","DEBITO",3,403),
   (230,745312724653308200000,"962","04/07/2022","26/01/2028","DEBITO",1,198);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (231,914850024947532700000,"161","29/04/2022","26/09/2027","CREDITO",3,193),
   (232,853701743951760200000,"248","19/08/2021","01/01/2028","DEBITO",1,191),
@@ -286,7 +286,7 @@ VALUES
   (238,965278612314178700000,"703","24/09/2021","12/02/2028","DEBITO",2,388),
   (239,840133015059570600000,"296","20/11/2021","29/05/2028","DEBITO",3,420),
   (240,376092466731306400000,"673","25/12/2021","13/11/2027","DEBITO",1,403);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (241,642263104053049800000,"423","02/03/2022","26/07/2028","DEBITO",1,190),
   (242,995929973780517400000,"526","04/12/2021","11/05/2028","DEBITO",3,302),
@@ -298,7 +298,7 @@ VALUES
   (248,801517847935210500000,"385","20/05/2022","25/06/2028","CREDITO",3,111),
   (249,827146121195541100000,"289","31/08/2021","21/05/2028","DEBITO",2,487),
   (250,826680412319681100000,"602","04/12/2021","06/05/2028","CREDITO",1,115);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (251,298085114104996950000,"258","04/02/2022","08/11/2027","CREDITO",3,325),
   (252,663223220115820000000,"794","29/05/2022","20/01/2028","DEBITO",3,385),
@@ -310,7 +310,7 @@ VALUES
   (258,267595882278676760000,"962","02/09/2021","30/06/2028","CREDITO",2,403),
   (259,639920754076042900000,"496","25/06/2022","05/08/2027","CREDITO",1,415),
   (260,513989161905662000000,"348","27/04/2022","26/08/2027","DEBITO",3,336);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (261,526920781991758200000,"158","24/05/2022","25/09/2027","DEBITO",2,267),
   (262,393372570791575900000,"316","22/09/2021","11/09/2027","CREDITO",1,170),
@@ -322,7 +322,7 @@ VALUES
   (268,289912822065544800000,"407","22/02/2022","26/08/2027","CREDITO",3,470),
   (269,697772175901149400000,"530","21/11/2021","23/11/2027","DEBITO",2,89),
   (270,368140440610976960000,"336","25/01/2022","08/07/2028","DEBITO",2,313);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (271,722779462884046500000,"696","05/01/2022","04/10/2027","CREDITO",2,49),
   (272,809190941546431000000,"209","22/06/2022","07/06/2028","DEBITO",2,357),
@@ -334,7 +334,7 @@ VALUES
   (278,984318299477480800000,"472","08/10/2021","20/11/2027","DEBITO",1,405),
   (279,931462809206853300000,"513","24/03/2022","25/08/2027","DEBITO",3,69),
   (280,851233858100119000000,"890","06/02/2022","06/01/2028","CREDITO",3,177);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (281,569081781798165500000,"582","06/10/2021","20/12/2027","CREDITO",2,101),
   (282,909830750746058600000,"219","15/02/2022","12/04/2028","CREDITO",2,490),
@@ -346,7 +346,7 @@ VALUES
   (288,521125520559839100000,"271","17/07/2022","16/06/2028","CREDITO",3,123),
   (289,354548472892727500000,"841","02/01/2022","19/08/2027","CREDITO",3,154),
   (290,413621893115113700000,"927","05/08/2021","17/07/2028","DEBITO",2,116);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (291,636010825863672400000,"125","08/09/2021","03/02/2028","CREDITO",1,73),
   (292,348834996935474400000,"353","04/04/2022","20/08/2027","CREDITO",3,147),
@@ -358,7 +358,7 @@ VALUES
   (298,820071175547205300000,"313","09/06/2022","19/07/2028","DEBITO",2,149),
   (299,135589170050727440000,"349","15/11/2021","17/01/2028","CREDITO",2,380),
   (300,220788927914725800000,"313","19/09/2021","19/09/2027","DEBITO",3,302);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (301,298998395421294100000,"289","23/11/2021","21/02/2028","CREDITO",1,485),
   (302,142636172088765580000,"425","25/11/2021","11/05/2028","CREDITO",2,447),
@@ -370,7 +370,7 @@ VALUES
   (308,646271320298269700000,"511","30/06/2022","21/10/2027","CREDITO",2,271),
   (309,402441026951846900000,"711","26/11/2021","02/07/2028","DEBITO",3,289),
   (310,892025049968861900000,"392","13/11/2021","03/12/2027","CREDITO",1,62);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (311,740711353875993500000,"773","31/08/2021","28/11/2027","CREDITO",2,24),
   (312,128681141023032700000,"762","12/11/2021","30/01/2028","DEBITO",1,28),
@@ -382,7 +382,7 @@ VALUES
   (318,478088043044970900000,"990","12/11/2021","05/05/2028","CREDITO",1,149),
   (319,331294201970526600000,"586","03/10/2021","04/12/2027","DEBITO",1,490),
   (320,371525340069048350000,"739","22/02/2022","27/11/2027","CREDITO",1,408);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (321,299986294745945500000,"618","02/07/2022","16/09/2027","CREDITO",2,142),
   (322,292561354162316570000,"704","18/03/2022","03/08/2027","CREDITO",2,111),
@@ -394,7 +394,7 @@ VALUES
   (328,649328160039547200000,"162","12/04/2022","23/06/2028","CREDITO",2,256),
   (329,256512919669842050000,"488","30/01/2022","22/09/2027","DEBITO",1,452),
   (330,806833431015970800000,"753","19/03/2022","04/08/2027","DEBITO",1,18);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (331,958679706546583100000,"439","25/01/2022","23/03/2028","CREDITO",2,183),
   (332,584505059143739300000,"169","04/09/2021","12/09/2027","DEBITO",3,445),
@@ -406,7 +406,7 @@ VALUES
   (338,657743523661140200000,"804","03/10/2021","19/08/2027","CREDITO",2,492),
   (339,855421482786216100000,"236","03/10/2021","14/03/2028","CREDITO",1,325),
   (340,501308126972275060000,"800","10/01/2022","23/07/2028","DEBITO",3,368);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (341,385690357097364000000,"636","28/03/2022","07/09/2027","DEBITO",2,349),
   (342,579330857205138200000,"458","16/03/2022","17/07/2028","DEBITO",1,443),
@@ -418,7 +418,7 @@ VALUES
   (348,615553984903091300000,"883","26/12/2021","08/11/2027","DEBITO",2,290),
   (349,850983656541529300000,"964","08/03/2022","20/03/2028","CREDITO",2,173),
   (350,307068469088467300000,"886","07/03/2022","16/06/2028","CREDITO",1,457);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (351,462691263054314100000,"529","11/03/2022","08/04/2028","DEBITO",1,278),
   (352,295588788509006500000,"249","04/06/2022","22/05/2028","CREDITO",1,408),
@@ -430,7 +430,7 @@ VALUES
   (358,378531673603359640000,"444","05/12/2021","15/06/2028","DEBITO",2,97),
   (359,198121183975163630000,"277","28/06/2022","18/02/2028","CREDITO",2,179),
   (360,895492344297496100000,"197","07/04/2022","05/03/2028","DEBITO",1,272);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (361,198196703772572840000,"794","08/01/2022","13/06/2028","DEBITO",1,116),
   (362,135527489155164500000,"525","24/05/2022","03/06/2028","DEBITO",1,347),
@@ -442,7 +442,7 @@ VALUES
   (368,115823916294097340000,"959","30/07/2021","24/08/2027","CREDITO",2,417),
   (369,669639164466055000000,"978","30/08/2021","03/07/2028","CREDITO",2,459),
   (370,738253833732707600000,"455","01/11/2021","05/10/2027","CREDITO",3,215);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (371,649253550465086300000,"817","21/05/2022","30/01/2028","DEBITO",2,36),
   (372,378045060001292100000,"284","03/07/2022","10/12/2027","DEBITO",3,190),
@@ -454,7 +454,7 @@ VALUES
   (378,390508170846404100000,"557","09/07/2022","27/07/2028","DEBITO",2,144),
   (379,588902586248776000000,"772","07/09/2021","24/09/2027","CREDITO",3,294),
   (380,656484972437987700000,"853","17/03/2022","22/12/2027","DEBITO",2,185);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (381,616233021932307200000,"941","16/11/2021","18/01/2028","CREDITO",1,446),
   (382,558327125846505600000,"502","13/08/2021","20/03/2028","CREDITO",1,73),
@@ -466,7 +466,7 @@ VALUES
   (388,450088185028735100000,"965","12/11/2021","15/09/2027","DEBITO",2,45),
   (389,589000473304145800000,"398","03/09/2021","04/07/2028","DEBITO",3,423),
   (390,650424856320486100000,"586","15/04/2022","13/02/2028","CREDITO",2,13);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (391,591236174084039100000,"481","12/04/2022","08/11/2027","CREDITO",3,347),
   (392,198956490866601560000,"269","18/04/2022","16/12/2027","DEBITO",2,438),
@@ -478,7 +478,7 @@ VALUES
   (398,514297040426975100000,"507","16/11/2021","16/07/2028","DEBITO",2,203),
   (399,986159461229513000000,"731","18/10/2021","25/05/2028","CREDITO",2,317),
   (400,542530000245567600000,"543","13/07/2022","11/12/2027","DEBITO",2,363);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (401,461180410207500040000,"785","03/06/2022","13/04/2028","DEBITO",3,447),
   (402,514887678065942200000,"208","11/05/2022","24/11/2027","DEBITO",3,391),
@@ -490,7 +490,7 @@ VALUES
   (408,815773510431604000000,"520","10/01/2022","09/12/2027","DEBITO",2,465),
   (409,106804604134775820000,"154","01/09/2021","23/11/2027","CREDITO",2,21),
   (410,444285213854135300000,"767","24/05/2022","17/07/2028","CREDITO",3,447);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (411,395034757345003700000,"232","07/03/2022","25/03/2028","DEBITO",2,223),
   (412,995298757504422000000,"400","10/01/2022","21/09/2027","DEBITO",2,57),
@@ -502,7 +502,7 @@ VALUES
   (418,495349635906104660000,"197","02/04/2022","26/08/2027","DEBITO",2,384),
   (419,698585359239179400000,"503","22/09/2021","03/03/2028","DEBITO",2,366),
   (420,133943128488200830000,"680","13/09/2021","23/10/2027","DEBITO",1,476);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (421,407788176931204500000,"400","24/03/2022","11/04/2028","CREDITO",1,53),
   (422,450227343203684500000,"176","14/12/2021","17/02/2028","CREDITO",3,407),
@@ -514,7 +514,7 @@ VALUES
   (428,179954228952636260000,"973","13/01/2022","25/02/2028","CREDITO",2,244),
   (429,230828512900355560000,"671","17/02/2022","27/04/2028","CREDITO",1,113),
   (430,273500964077679250000,"384","08/09/2021","02/02/2028","CREDITO",1,175);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (431,107990132431775530000,"284","20/01/2022","29/12/2027","DEBITO",3,205),
   (432,370119784458024800000,"247","03/02/2022","28/04/2028","CREDITO",3,351),
@@ -526,7 +526,7 @@ VALUES
   (438,330162864528683500000,"336","07/02/2022","29/10/2027","DEBITO",2,297),
   (439,229133334068409200000,"671","11/07/2022","28/09/2027","CREDITO",2,380),
   (440,328050733735739100000,"743","16/08/2021","04/08/2027","CREDITO",2,350);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (441,454915531556803000000,"549","25/04/2022","23/07/2028","CREDITO",1,47),
   (442,484615500484680600000,"434","28/05/2022","27/03/2028","DEBITO",1,328),
@@ -538,7 +538,7 @@ VALUES
   (448,510210764853193300000,"611","21/08/2021","04/09/2027","DEBITO",1,206),
   (449,355375869969023400000,"686","11/02/2022","16/01/2028","DEBITO",2,359),
   (450,620172330858995800000,"283","31/05/2022","12/02/2028","DEBITO",2,450);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (451,245071737218515800000,"924","24/03/2022","18/09/2027","DEBITO",1,49),
   (452,442608578708947860000,"423","16/10/2021","12/09/2027","CREDITO",1,202),
@@ -550,7 +550,7 @@ VALUES
   (458,840303426083651500000,"923","21/09/2021","16/08/2027","DEBITO",1,196),
   (459,421281120714000600000,"503","01/07/2022","21/01/2028","DEBITO",3,183),
   (460,850403912602034400000,"302","26/05/2022","18/06/2028","CREDITO",2,41);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (461,996001731700753400000,"174","15/08/2021","05/11/2027","DEBITO",3,388),
   (462,476537336979818200000,"281","06/03/2022","07/08/2027","CREDITO",2,203),
@@ -562,7 +562,7 @@ VALUES
   (468,371959090979967500000,"462","30/05/2022","22/11/2027","DEBITO",2,335),
   (469,971141018846195600000,"391","12/08/2021","21/04/2028","DEBITO",2,194),
   (470,158342222223709340000,"379","08/03/2022","20/02/2028","CREDITO",1,84);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (471,880137845888138500000,"113","25/07/2022","07/04/2028","DEBITO",1,260),
   (472,261188824369026270000,"617","04/09/2021","27/04/2028","DEBITO",3,193),
@@ -574,7 +574,7 @@ VALUES
   (478,687236616324301200000,"186","11/12/2021","25/12/2027","DEBITO",1,332),
   (479,607856550872105900000,"491","04/07/2022","01/04/2028","DEBITO",1,498),
   (480,828012588424732100000,"399","01/01/2022","14/12/2027","DEBITO",2,472);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (481,808587734752115200000,"115","13/08/2021","11/01/2028","CREDITO",3,217),
   (482,630052688518313000000,"969","27/03/2022","17/05/2028","DEBITO",2,92),
@@ -586,7 +586,7 @@ VALUES
   (488,720598314670388800000,"265","11/02/2022","28/03/2028","DEBITO",2,112),
   (489,778393139850895700000,"173","30/04/2022","03/12/2027","DEBITO",2,4),
   (490,406649122712216140000,"912","16/08/2021","18/08/2027","CREDITO",2,36);
-INSERT INTO "tarjetas" (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
+INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (491,450562016674966860000,"722","08/06/2022","02/01/2028","CREDITO",2,71),
   (492,741319618393540100000,"770","30/06/2022","08/11/2027","CREDITO",3,169),
