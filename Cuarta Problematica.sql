@@ -19,13 +19,11 @@ INNER JOIN sucursal ON sucursal.branch_id = cliente.branch_id
 INNER JOIN tarjetas ON tarjetas.cliente_id = cliente.customer_id
 GROUP BY  tarjetas.tipo, sucursal.branch_name
 
-<<<<<<< HEAD
 /*Obtener el promedio de créditos otorgado por sucursal*/
 SELECT avg(cantidad) as "Promedio de prestamos", branch_name as "Sucursal" FROM cliente, (SELECT count(loan_type) AS cantidad FROM prestamo)
-=======
+
 
 SELECT avg(prestamo.loan_total) as "Promedio de prestamos", branch_name as "Sucursal" FROM cliente
->>>>>>> 8d69917e04cda8386b151f9049c06c4f496eb69b
 INNER JOIN sucursal ON sucursal.branch_id = cliente.branch_id
 INNER JOIN prestamo ON prestamo.customer_id = cliente.customer_id
 GROUP BY sucursal.branch_name
@@ -59,6 +57,20 @@ UPDATE cuenta
 	
 
 ROLLBACK
+
+/* Mediante índices mejorar la performance la búsqueda de clientes por DNI*/
+CREATE UNIQUE INDEX indice_DNI cliente (customer_DNI);
+
+/*Crear la tabla “movimientos” con los campos de identificación del
+movimiento, número de cuenta, monto, tipo de operación y hora*/
+CREATE TABLE movimientos(
+movimiento_id INTEGER PRIMARY KEY AUTOINCREMENT,
+numero_de_cuenta INTEGER,
+monto INTEGER,
+tipo_de_operacion TEXT,
+hora TEXT
+);
+
 
 
 
