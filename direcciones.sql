@@ -1,3 +1,5 @@
+/*Insertar 500 direcciones, asignando del lote inicial a empleados, clientes o sucursal de forma aleatoria. Teniendo en cuenta que un cliente o empleado puede tener múltiples direcciones, pero la sucursal, solo una.*/
+
 INSERT INTO direcciones (calle,numero,ciudad,provincia,pais,cliente_id)
 VALUES
   ("826-5106 Penatibus Avenue",4328,"Hong Kong","Ilocos Region","Austria",88),

@@ -1,3 +1,5 @@
+/*Insertar 500 tarjetas de crédito con sus respectivos datos (www.generatedata.com) asociándolas a los clientes de forma aleatoria*/
+
 INSERT INTO tarjetas (tarjeta_id,numero,cvv,fecha_otorgamiento,fecha_expiracion,tipo,marca_id,cliente_id)
 VALUES
   (1,465163984013256000000,"787","04/06/2022","16/01/2028","DEBITO",3,416),

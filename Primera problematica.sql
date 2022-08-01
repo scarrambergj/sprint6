@@ -1,4 +1,4 @@
-/* Primera problematica */
+/* PRIMERA PROBLEMÁTICA */
 
 /*Crear en la base de datos los tipos de cliente, de cuenta y marcas de tarjeta. Insertar los valores según la información provista en el Sprint 5*/
 CREATE TABLE tipos_de_cliente ( 
@@ -89,10 +89,12 @@ CREATE TABLE direcciones(
 		ON DELETE CASCADE
 );
 
-
+/*Ampliar el alcance de la entidad cuenta para que identifique el tipo de la misma*/
 ALTER TABLE cuenta
 ADD COLUMN tipo_id INTEGER DEFAULT NULL;
 
+/*Asignar un tipo de cuenta a cada registro de cuenta de forma
+aleatoria*/
 CREATE TABLE new_cuenta (
 "account_id" INTEGER NOT NULL,
  "customer_id" INTEGER NOT NULL,
@@ -112,6 +114,7 @@ DROP TABLE cuenta;
 
 ALTER TABLE new_cuenta RENAME TO cuenta;
 
+/*Corregir el campo employee_hire_date de la tabla empleado con la fecha en formato YYYY-MM-DD*/
 UPDATE empleado
   SET employee_hire_date = SUBSTR(employee_hire_date, 7, 4)
      || '-' || SUBSTR(employee_hire_date, 4, 2)
