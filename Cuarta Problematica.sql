@@ -19,13 +19,8 @@ INNER JOIN sucursal ON sucursal.branch_id = cliente.branch_id
 INNER JOIN tarjetas ON tarjetas.cliente_id = cliente.customer_id
 GROUP BY  tarjetas.tipo, sucursal.branch_name
 
-<<<<<<< HEAD
-/*Obtener el promedio de créditos otorgado por sucursal*/
-SELECT avg(cantidad) as "Promedio de prestamos", branch_name as "Sucursal" FROM cliente, (SELECT count(loan_type) AS cantidad FROM prestamo)
-=======
 
 SELECT avg(prestamo.loan_total) as "Promedio de prestamos", branch_name as "Sucursal" FROM cliente
->>>>>>> 8d69917e04cda8386b151f9049c06c4f496eb69b
 INNER JOIN sucursal ON sucursal.branch_id = cliente.branch_id
 INNER JOIN prestamo ON prestamo.customer_id = cliente.customer_id
 GROUP BY sucursal.branch_name
@@ -51,14 +46,16 @@ BEGIN
 	  INSERT INTO auditoria_cuenta (old_id, new_id, old_balance, new_balance, old_iban, new_iban, old_type, new_type, user_action, created_at) VALUES (OLD.account_id, NEW.account_id, OLD.balance, NEW.balance, OLD.iban, NEW.iban, OLD.tipo_id, NEW.tipo_id, "UPDATE", datetime("now"));
 END;
 
-DROP TRIGGER auditoria
 
 UPDATE cuenta
 	SET balance = 100
 	WHERE account_id BETWEEN 10 AND 14
+
+BEGIN TRANSACTION 
+
+UPDATE cuenta 
 	
 
-ROLLBACK
 
 
 
