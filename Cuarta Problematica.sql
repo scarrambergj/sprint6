@@ -65,11 +65,20 @@ movimiento, número de cuenta, monto, tipo de operación y hora*/
 CREATE TABLE movimientos(
 movimiento_id INTEGER PRIMARY KEY AUTOINCREMENT,
 numero_de_cuenta INTEGER,
-monto INTEGER,
+monto TEXT,
 tipo_de_operacion TEXT,
 hora TEXT
 );
 
+BEGIN TRANSACTION;
+
+UPDATE cuenta SET balance = balance - 1000 WHERE account_id = 200;
+UPDATE cuenta SET balance = balance + 1000 WHERE account_id = 400;
+
+INSERT INTO movimientos (numero_de_cuenta, monto, tipo_de_operacion, hora) VALUES (400, "1000", "Transferencia", time("now"));
+
+COMMIT;
+	
 
 
 
