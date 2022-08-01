@@ -57,6 +57,20 @@ UPDATE cuenta
 	
 
 
+/* Mediante índices mejorar la performance la búsqueda de clientes por DNI*/
+CREATE UNIQUE INDEX indice_DNI cliente (customer_DNI);
+
+/*Crear la tabla “movimientos” con los campos de identificación del
+movimiento, número de cuenta, monto, tipo de operación y hora*/
+CREATE TABLE movimientos(
+movimiento_id INTEGER PRIMARY KEY AUTOINCREMENT,
+numero_de_cuenta INTEGER,
+monto INTEGER,
+tipo_de_operacion TEXT,
+hora TEXT
+);
+
+
 
 
 
